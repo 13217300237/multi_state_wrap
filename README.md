@@ -1,16 +1,7 @@
-# multi_state_wrap
+# 多状态的 组件，状态之间丝滑切换
 
-A new Flutter project.
+- 预先定义5种组件状态 enum Status { initial, loading, error, success, timeout }
+- 给每种状态设定不同的布局
+- 利用动画进行 状态之间切换时的渐变效果
+- 给封装好的组件添加上 状态控制器，支持从外部控制内部状态 StateController
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
